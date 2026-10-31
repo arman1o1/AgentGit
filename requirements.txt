@@ -1,0 +1,4 @@
+numpy>=1.24.0
+# Optional GPU/vLLM bridge dependencies (auto-detected at runtime):
+# torch>=2.2.0
+# pytest>=7.4.0

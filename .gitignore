@@ -1,0 +1,40 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environment variables & secrets
+.env
+.env.*
+
+# Agent & IDE metadata
+.agents/
+.gemini/
+.claude/
+.vscode/
+.idea/
+*.webm
+
+# AgentGit runtime & SQLite artifacts
+.agentgit/
+*.db
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.kvz
+
+# OS metadata & build artifacts
+Thumbs.db
+.DS_Store
+dist/
+build/
+*.egg-info/
+results/
